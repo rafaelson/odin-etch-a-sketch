@@ -1,0 +1,14 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+}
+.square {
+  background-color: blue;
+  border: black;
+  border-style: solid;
+  height: 1vh;
+  width: 1vh;
+}

@@ -2,13 +2,30 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+.button {
+  position: fixed;
+  top: 2.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .wrapper {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-wrapper {
   display: grid;
+  width: 500px;
+  height: 500px;
 }
 .square {
-  background-color: blue;
-  border: black;
-  border-style: solid;
-  height: 1vh;
-  width: 1vh;
+  background-color: white;
+  border: 1px solid gray;
+  height: auto;
+  width: auto;
 }
